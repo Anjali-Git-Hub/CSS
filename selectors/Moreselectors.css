@@ -1,0 +1,38 @@
+/* universal selector -->
+*{
+    margin: 0;
+    padding: 0;
+} */
+
+/* element selctor */
+body{
+    background:cornflowerblue;
+}
+
+/* class selectors */
+section.section-1 article p{
+    color: #cdcdcd;
+}
+
+/* descendent selector  */
+a{
+    color: aquamarine;
+}
+
+/* Direct child combinator */
+
+/* .class-3 h3{
+    color:yellow ;     but here both h3 color changes into yellow we only want .class-3 h3 color change 
+} */
+.class-3>h3{
+    color: yellow;
+}
+
+/* adjacent selector */
+.class-3 h3+p{
+    color: rgb(255, 55, 0);
+}
+
+.class-4>h3{
+    color: yellow;
+}

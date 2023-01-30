@@ -1,0 +1,17 @@
+li{
+   
+    /* li are block level elements covering full width */
+    /* but we are making a navigation bar so we have to change it as inline */
+
+    /* display: inline; */
+    /* but doing it inline we can do li in centre we cannot give margin, padding top-bottom -> so most easy thing is we can give it a display property inline-block  */
+
+    /* as the name suggest i know you get it  */
+    list-style: none;
+    display: inline-block;
+    margin: 15px;
+}
+ul{
+    border: 2px solid;
+    text-align: right;
+}

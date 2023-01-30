@@ -1,0 +1,14 @@
+.box1{
+    border: 10px solid brown;
+    margin-bottom: 20px;
+}
+.box2{
+    border: 10px solid blue;
+    margin-top: 30px;
+}
+ /* 
+  now which margin will include ??
+
+  The answer is the greater margin will be applied in this case margin-top will be applied because it's value is greater than margin-bottom
+ 
+ */

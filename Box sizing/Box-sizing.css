@@ -1,0 +1,20 @@
+body{
+    background-color: black;
+}
+hr{
+    
+    width: 200px;
+    margin-left: 0px;
+}
+p{
+    width: 200px;
+    background-color: aqua;
+    color: white;
+    border: 10px solid red;
+    padding: 10px;
+    /* now the width of the box is not 200px it is exceeded from 200px to 220px coz of 10px border and 10px padding and you can see the line also it is of 200px width . */
+
+    /* so to solve this we uses box-siziing property, by default the box-sizing is set as content-box   */
+    box-sizing: border-box;
+    /* now you can see that the whole box is within the defined width of 200px */
+}

@@ -1,0 +1,24 @@
+/* it means all the elments except p have the color aqua including body also therefore all the child elements inside the body inherit that color  */
+/* :not(p){
+    color: aqua;
+} */
+/* body :not(p){
+    color: aqua;
+} */
+
+
+
+/* more specificity  */
+/* :root{
+    background-color: red;
+}
+html{
+    background-color: wheat;
+} */
+
+
+div:empty{
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+}

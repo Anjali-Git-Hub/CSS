@@ -1,0 +1,15 @@
+.container{
+    display: flex;
+    border: 10px solid black;
+    height: 500px;
+    flex-direction: column;
+    /* align-items: flex-start; */
+    /* align-items: flex-end; */
+    /* align-items: center; */
+    /* align-items: baseline; */
+    /* flex-wrap: wrap; */
+}
+.box{
+    border: 2px solid crimson;
+    width: 200px;
+}

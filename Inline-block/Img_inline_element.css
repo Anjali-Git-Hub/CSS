@@ -1,0 +1,23 @@
+div.container img{
+    display: block;
+    border: 2px solid purple;
+    width: 500px;
+    /* margin: 10px 10px; */
+    margin: 10px auto;
+    /* but we cannt use auto as at the end it is a inline element only so the image will not come to the centre but we can use padding and margin at all sides */
+    padding: 10px 10px;
+
+
+    /* we can change inline elements to block level elements and block level to inline elements by simply changing it's display property*/
+
+    /* by doing display block the image get into centre due to auto at left right  */
+}
+div.container{
+    border: 2px solid black;
+    
+}
+p{
+    border: 2px solid brown;
+    width: 100px;
+    margin: 10px auto;
+}

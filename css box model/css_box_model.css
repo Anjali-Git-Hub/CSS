@@ -1,0 +1,38 @@
+/* .container{
+    border: 2px solid salmon; */
+    /* width: 500px;
+} */
+
+/*
+ .box p{ */
+    /* border: 2px solid blueviolet;
+    width: 200px;
+    margin-left: 50px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 100px; */
+
+    /* shorthand - applicable in all sides */
+    /* margin: 100px; */
+
+    /* clock hand - top, right , bottom , left */
+    /* margin: 10px 10px 10px 10px ; */
+
+    /* top-bottom  left-right */
+    /* margin: 20px 20px; */
+/*
+     }
+ */
+
+
+
+
+ /*  to center the box we have a trick */
+ .box{
+    border: 10px solid black;
+    width: 200px;
+    margin: 10px auto;
+    
+    /* like margin we give padding in the same way */
+    padding: 5px;
+ }

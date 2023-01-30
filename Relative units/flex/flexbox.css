@@ -1,0 +1,13 @@
+.box{
+    width: 25%;
+    border: 2px solid orangered;
+    /* flex-direction: row; */
+    /* by default the flex-direction is row  */
+   
+}
+.container{
+    display: flex;
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    flex-direction: column-reverse;
+}

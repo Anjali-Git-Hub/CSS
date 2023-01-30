@@ -1,0 +1,23 @@
+ input[type="text"]{
+    background-color: aquamarine;
+    color: black;
+ }
+ input[type="password"]{
+    background-color: rgb(247, 166, 136);
+    color: yellow;
+ }
+
+ /* a[href="https://google.in"]{
+    color: crimson;
+ } */
+
+ /* a[href*="google"]{
+    color: crimson;
+ } */
+
+ a[href$=com]{
+    color: burlywood;
+ }
+ a[href^=t]{
+    color: powderblue;
+ }

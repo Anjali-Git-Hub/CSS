@@ -1,0 +1,65 @@
+body{
+    background: black;
+}
+.circle{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: lightblue;
+    position: relative;
+    /* animation-name: ball; */
+    /* animation-duration: 10s;
+   animation-fill-mode: forwards;
+    animation-iteration-count: infinite; */
+    
+    /* shorthand  */
+    animation: ball 10s forwards  infinite ease-in-out;
+}
+@keyframes ball {
+    0%{
+        left: 0;
+        top: 0;
+    }
+    10%{
+        top: 0px;
+        left: 300px;
+        background: red;
+    }
+    15%{
+        background: rgb(237, 112, 133);
+        top:200px;
+        left: 300px;
+    }
+    20%{
+        background: yellow;
+        top: 200px;
+        left: 600px;
+    }
+     25%{
+        background: rgb(17, 182, 17);
+        top: 400px;
+        left: 600px;
+
+    }
+    30%{
+        background: orange;
+        top: 400px;
+        left: 1200px;
+    } 
+    35%{
+        background: white;
+        top:600px ;
+        left: 1200px;
+    }
+    40%{
+        background: orangered;
+        top: 600px;
+        left: 0px;
+    }
+    50%{
+        background:lightsalmon;
+        top: 0px;
+        left: 0px;
+    }
+
+}

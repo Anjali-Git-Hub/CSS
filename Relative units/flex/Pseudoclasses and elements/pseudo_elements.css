@@ -1,0 +1,20 @@
+p::first-letter{
+    font-size: 30px;
+}
+/* p::selection{
+    background-color: black;
+    color: yellow;
+} */
+::selection{
+    background-color: aqua;
+    color: orangered;
+}
+
+h1::before{
+    content: "This";
+}
+p::after{
+    content:"thankyou";
+}
+
+/* before and after pseudo elements are not applies on image , input , br ,video */

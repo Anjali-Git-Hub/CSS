@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+    border: 1px solid brown;
+    flex-direction: row;
+}
+.box{
+    border: 2px solid lightcoral;
+
+}
+.box1{
+    /* flex-grow: 2; */
+    flex-shrink: 5;
+
+}
+.box2{
+    /* flex-grow: 1; */
+    flex-shrink: 3;
+
+}
+.box3{
+    /* flex-grow: 1; */
+    flex-shrink: 4;
+
+}
+.box4{
+    /* flex-grow: 1; */
+
+}

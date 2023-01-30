@@ -1,0 +1,28 @@
+.box{
+    border: 2px solid red;
+    width: 500px;
+    margin:10px auto;
+    /* text align property to align the text written inside the this box in center,right,left  */
+    text-align: center;
+    /* can also change the font weight by default the font weight is 400 which is normal font weight , 700 is bolder font weight
+    font-weight: bold; */ 
+    
+    /* we can also increase the font-size as well
+    font-size:20px 
+    */
+}
+h1{
+    text-decoration: underline wavy red;
+    /*
+    we can use instead of wavy like dashed , solid dotted ....
+    we can use instead of underline like overline , line-through(mostly used in todo list) 
+     */
+    letter-spacing: 2px;
+
+}
+p{
+    /* distance between two lines is line height */
+    line-height: 30px;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+}

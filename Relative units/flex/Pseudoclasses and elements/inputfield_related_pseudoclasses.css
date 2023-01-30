@@ -1,0 +1,13 @@
+.form{
+    background-color: cornsilk;
+}
+input:focus{
+    padding: 10px;
+    outline: none;
+    border: 2px solid rgb(179, 255, 0);
+    color: coral;
+}
+input:required{
+    color: crimson;
+   
+}

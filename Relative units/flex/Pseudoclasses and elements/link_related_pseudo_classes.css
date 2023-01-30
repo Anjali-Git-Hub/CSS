@@ -1,0 +1,33 @@
+.pseudo{
+    background-color: black;
+    width: 200px;
+    margin: 50px auto;
+  
+}
+a{
+    display: inline-block;
+    padding: 40px 80px;
+}
+
+a:link{
+    color: lightgoldenrodyellow;
+}
+a:visited{
+    color: crimson;
+}
+a:hover{
+    color:lightslategrey;
+}
+a:active{
+    color: aqua;
+}
+p{
+    color: aliceblue;
+    padding: 10px 10px;
+}
+p:hover{
+    color: rgb(0, 255, 51);
+}
+p:active{
+    color: rgb(255, 119, 0);
+}

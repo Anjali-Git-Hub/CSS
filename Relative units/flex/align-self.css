@@ -1,0 +1,26 @@
+.container{
+    display: flex;
+    border: 10px solid brown;
+    height: 500px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* flex-wrap: wrap; */
+
+}
+.box{
+    border: 2px solid lightcoral;
+    width: 200px;
+}
+.box1{
+    align-self: flex-start;
+}
+.box2{
+    align-self: center;
+}
+.box3{
+    align-self: flex-end;
+}
+/* .box4{
+
+} */

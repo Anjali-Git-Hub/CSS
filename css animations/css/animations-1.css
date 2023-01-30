@@ -1,0 +1,39 @@
+/* .box{
+    height: 200px;
+    width: 200px;
+    background-color: lightgreen;
+    /* name of animation */
+    /* animation-name: bg-change;
+    animation-duration: 5s;
+    animation-delay: 3s;
+    animation-iteration-count: 4;
+    animation-fill-mode: forwards; */
+
+/* } */
+/* @keyframes bg-change {
+    from{
+        background-color: royalblue;
+    }
+    to{
+        background-color: lightcoral;
+    }
+} */
+
+.width{
+    width: 10px;
+    height: 5px;
+    background-color: red;
+    animation-name: width-increase;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    /* animation-fill-mode: forwards; */
+    /* animation-direction: reverse; */
+}
+@keyframes width-increase{
+    from{
+        width: 0;
+    }
+    to{
+        width: 500px;
+    }
+}

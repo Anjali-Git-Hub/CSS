@@ -1,0 +1,26 @@
+div{
+    /* sort-hand property of border */
+    /* border: 2px solid red; */
+
+
+/* 
+    border-width: 10px;
+    border-style: dashed;
+    border-color: chocolate;
+     */
+
+
+}
+div h1{
+    /* border: 2px solid black; */
+
+    color: cadetblue;
+    /* border-top: 10px dotted blue;
+    border-left: 5px solid black ;
+    border-right: 5px solid violet; */
+    border-bottom: 2px solid coral;
+}
+p{
+    border: 20px solid lightskyblue;
+    border-radius:10px ; /* Roundness in the ends of the borders    */
+}

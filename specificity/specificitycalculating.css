@@ -1,0 +1,53 @@
+body{
+    background-color: coral;
+}
+/* #Musicians ul li{
+    color: powderblue;
+}
+.fav{
+    color: crimson
+} */
+
+/* Not applied why???
+   because it's specificity is low 
+*/
+
+/* ******************specificity calculating************************* */
+#Musicians ul li{
+    color: powderblue;
+}
+/* 
+    specificity =  inline style attribute ,  id , class  , element  
+    inline style attribute = 0
+    class = 0
+    id = 1 -> Musicians 
+    element= 2 -> ul ,li
+
+    specificity =0,1,0,2  --> for understanding->> specificity is 102
+*/
+
+
+
+.fav{
+    color: crimson
+    /*
+     inline style attribute = 0
+    class = 1
+    id = 0 
+    element = 0
+    specificity= 0,0,1,0  --> 10 , too low !! as compared to the above one
+     */
+
+}
+
+#Musicians ul li.fav{
+    color: purple;
+    /* 
+    inline style attribute = 0
+    class = 1 fav
+    id = 1 
+    element= 2 -> ul ,li 
+    specificity is 0,1,1,2 --> 112, higher then above one
+    */
+    
+}
